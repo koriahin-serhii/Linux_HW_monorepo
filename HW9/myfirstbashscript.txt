@@ -1,0 +1,8 @@
+#!/bin/bash
+USER="Serhii"
+echo "Date: $(date)"
+echo "Hello $USER!"
+echo "Curent directory: $(pwd)"
+echo "Bioset processes: $(ps -ef | grep bioset |grep -v grep | wc -l)"
+echo "Rights for /etc/passwd: $(ls -l /etc/passwd | awk '{print $1}')"
+echo done

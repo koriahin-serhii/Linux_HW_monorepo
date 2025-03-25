@@ -1,0 +1,16 @@
+  608  git checkout feature
+  609  git branch
+  610  echo "LINUX_HW12" >> README.md
+  611  echo "/rar" >> .gitignore
+  612  git add .
+  613  git status
+  614  git commit -m "changed two files"
+  615  git push -u origin feature
+  616  git commit --amend -m "changed two files amend"
+  617  git status
+  618  git push --force origin feature
+  619  git checkout main
+  620  git merge feature
+  621  git status
+  622  gitpush origin main
+  623  git push origin main
