@@ -1,0 +1,78 @@
+  782  /opt/131224-wdm/koriahin-serhii/
+  783  ls -la
+  784  cd /opt/131224-wdm/koriahin-serhii/
+  785  ls -la
+  786  mkdir -b hw20_1 hw20_2
+  787  mkdir hw20_1 hw20_2
+  788  ls -la
+  789  cd hw20_1
+  790  for i in {1..100}; do touch "$RANDOM"; done
+  791  ls -la
+  792  nano move_files.sh
+  793  ls -la
+  794  chmod 744 move_files.sh 
+  795  ./move_files.sh 
+  796  nano move_files.sh 
+  797  cd .
+  798  cd ..
+  799  cd hw20_2
+  800  ls -la
+  801  cd ..
+  802  cd hw20_1
+  803  ls -la
+  804  ./move_files.sh 
+  805  nano move_files.sh 
+  806  mv move_files.sh /opt/131224-wdm/koriahin-serhii/hw20_2
+  807  ls -la
+  808  cd ..
+  809  cd hw20_2
+  810  ls-la
+  811  ls -la
+  812  cd ..
+  813  cd hw20_1
+  814  ls -la
+  815  cd ..
+  816  mkdir hw20_3
+  817  cd hw20_2
+  818  nano move_files.sh 
+  819  ./move_files.sh 
+  820  cd ..
+  821  cd hw20_3
+  822  ls-la
+  823  ls -la
+  824  cd ..
+  825  ls -la
+  826  cd hw20_2
+  827  ls -la
+  828  nano move_files.sh 
+  829  ./move_files.sh 
+  830  cd ..
+  831  cd hw20_3
+  832  ls -la
+  833  nano move_files.sh 
+  834  ls -la
+  835  cd ..
+  836  cd hw20_2
+  837  ls -la
+  838  nano move_files.sh 
+  839  ./move_files.sh 
+  840  cd ..
+  841  cd hw20_3
+  842  ls -la
+  843  cd ..
+  844  cd hw20_1
+  845  ls -la
+  846  cd ..
+  847  cd hw20_2
+  848  ls -la
+  849  mv move_files.sh /opt/131224-wdm/koriahin-serhii/hw20_3
+  850  cd ..
+  851  cd hw2-_3
+  852  cd hw20_3
+  853  ls -la
+  854  nano move_files.sh 
+  855  ./move_files.sh 
+  856  ls -la
+  857  pwd
+  858  history
+
